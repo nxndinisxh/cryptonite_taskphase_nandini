@@ -49,3 +49,37 @@ Flag: pwn.college{8X1q0f-EkinMZ7VkBxL1BG_qpYp.ddDN1QDL0IzN0czW}
 
 Flag: pwn.college{ka5l_Cx1zFLrfUEYIa4qdeXVTeJ.dhDN1QDL0IzN0czW}
 
+![img](image-10.png)
+
+This challenge required me to go in the `/` directory using the `cd /` cmd and then invoke the relative path `challenge/run` to get the flag.
+
+Flag: pwn.college{c4MopsqKJZ4KF9nt6rSch9wKZ81.dlDN1QDL0IzN0czW}
+
+![img](image-11.png)
+
+This challenge required me to invoke the directory from the `/` directory using the relative paths.
+
+Flag was obtained on going into the `/` directory using `cd /` cmd and then invoking the directory using `./challenge/run` cmd
+
+Flag: pwn.college{oNShTY5BwRQllSc4oyg3sk7BH3K.dBTN1QDL0IzN0czW}
+
+![img](image-12.png)
+
+This challenge required me to invoke the `run` directory from `challenge` directory using the relative paths.
+
+Flag was obtained by running the following commands
+1. `cd /challenge`
+2. `./run`
+
+Flag: pwn.college{shcygkeLdCtHxGa4t_PYebHDDum.dFTN1QDL0IzN0czW}
+
+![img](image-13.png)
+
+This challenge what `~` signifies. It is shorthand for the home directory of the user. Here, in the challenge the user is the hacker so `~` iss expanded to `/home/hacker`
+
+The flag was obtained by running the `/challenge/run ~/c` cmd.
+The constraints I followed were
+1. The argument was an absolute path
+2. The path was inside the home directory
+3. The argument was 3 character or less before expansion.
+Flag: pwn.college{cwzEJG7eooT79Q_gmW5QH39L34R.dNzM4QDL0IzN0czW}
