@@ -61,3 +61,36 @@ Flag: pwn.college{sE5djdWu00Tjayf9bQLFtXTKLWP.dBTN4QDL0IzN0czW}
 
 ## An Epic Filesystem Quest
 
+In this Level, I was required to use the `cd`, `ls` and `cat` commands to their full potential
+
+There were three types of files that were to be accessed from different paths without `cd`ing into the directory and with `cd`ing into the files.
+The hidden files were to be `cat`ed using the `ls -a` cmd for that directory after `cd`ing into it.
+The trapped files were to be `cat`ed using the ls cmd with the path as the argument.
+
+After a series of `cat`ing, `ls`ing and `cd`ing, I finallt found the flag.
+
+Flag: pwn.college{IMnWqv3dh6jiH-SQV8Lclbr5kBI.dljM4QDL0IzN0czW}
+
+## making directories
+
+In this level, I was required to make a `pwn` directory in the `/tmp` directory using the `mkdir` command and then create a `college` file in it using the `touch` command.
+
+Flag: pwn.college{w5No_Z9ANuSyly95vCepOz32s3N.dFzM4QDL0IzN0czW}
+
+## finding files
+
+In this level, I run the `find` cmd for the `/` directory to find the `flag` file in which the flag to this challenge was saved.
+Running the `flag / -name flag` gave me a list of files with `flag` files in them
+`cat`ing through them gave me the flag in the `/usr/local/lib/python3.8/dist-packages/sympy/logic/utilities` directory
+
+Flag: pwn.college{0i43I8A0jUtjoMJW3a5kBuOV0Vq.dJzM4QDL0IzN0czW}
+
+## linking files
+
+In this challenge, we learn about linking.
+
+Links come in two flavors: hard and soft (also known as symbolic) links.
+
+To solve this challenge, I tried `/challenge/catflag` but it read the `/home/hacker/not-the-flag` file, I tried `ln -s /flag /home/hacker/not-the-flag` and then tried the `/challenge/catflag` which gave me the flag.
+
+Flag: pwn.college{UE-EiLpLa1mawL4cZPulmG2AEXG.dlTM1UDL0IzN0czW}
