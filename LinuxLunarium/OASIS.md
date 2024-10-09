@@ -1,6 +1,6 @@
 # OASIS CTF
 
-We placed #49 out of around 200 teams in the OASIS CTF '24 conducted by Cryptonite.
+We were placed #49 out of around 200 teams in the OASIS CTF '24 conducted by Cryptonite.
 
 I contributed one challenge during the 2-day marathon.
 
