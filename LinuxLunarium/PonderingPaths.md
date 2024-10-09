@@ -1,21 +1,21 @@
-![img](image-3.png)
+# Pondering Paths
 
 This module is about learning the basics of Linux file paths. 
 
-![img](image-4.png)
+## The Root
 
 1st challenge is about learning how to access a program named `pwn` using the `/pwn` command. `/` is the symbol for the root directory, the words following it are the names of the programs/paths that follow.
 `/pwn` is the path to the pwn program under the root directory.
 Flag was obtained by entering `/pwn` command on the terminal 
 Flag: pwn.college{geL3ISy0aupqQVj-MuwqI7vtjWO.dhzN5QDL0IzN0czW}
 
-![img](image-6.png)
+## Program and absolute paths
 
 This challenge was teaching a bit more complex way of accessing the `run`  directory which was inside a `challenge` directory in te `/` directory.
 Flag was obtained by running the absolute path command `/challenge/run`
 Flag: pwn.college{EMqlcj7mnQax2BGlU3c4go0W1LU.dVDN1QDL0IzN0czW}
 
-![img](image-7.png)
+## Position thy self
 
 This challenge wanted me to invoke the absolute path from the right directory.
 
@@ -27,7 +27,7 @@ And told me I was not in the correct directory
 I ran the `cd /usr/share/zoneinfo/posix/Asia` command to get to the right directory and then ran the `/challenge/run` command to get my flag.
 Flag: pwn.college{ILrXGKs9iIHxy_1flcso0xl9xJI.dZDN1QDL0IzN0czW}
 
-![img](image-8.png)
+## Position elsewhere
 
 This was a similar challenge to what we did in the last challenge
  I tried invoking `/challenge/run` to which it chowed
@@ -38,7 +38,7 @@ This was a similar challenge to what we did in the last challenge
 
 Flag: pwn.college{8X1q0f-EkinMZ7VkBxL1BG_qpYp.ddDN1QDL0IzN0czW}
 
-![img](image-9.png)
+## Position yet elsewhere
 
  This was the same challenge to what we did in the last ones
  I tried invoking `/challenge/run` to which it chowed
@@ -49,13 +49,13 @@ Flag: pwn.college{8X1q0f-EkinMZ7VkBxL1BG_qpYp.ddDN1QDL0IzN0czW}
 
 Flag: pwn.college{ka5l_Cx1zFLrfUEYIa4qdeXVTeJ.dhDN1QDL0IzN0czW}
 
-![img](image-10.png)
+## implicit relative paths, from /
 
 This challenge required me to go in the `/` directory using the `cd /` cmd and then invoke the relative path `challenge/run` to get the flag.
 
 Flag: pwn.college{c4MopsqKJZ4KF9nt6rSch9wKZ81.dlDN1QDL0IzN0czW}
 
-![img](image-11.png)
+## explicit relative paths, from /
 
 This challenge required me to invoke the directory from the `/` directory using the relative paths.
 
@@ -63,7 +63,7 @@ Flag was obtained on going into the `/` directory using `cd /` cmd and then invo
 
 Flag: pwn.college{oNShTY5BwRQllSc4oyg3sk7BH3K.dBTN1QDL0IzN0czW}
 
-![img](image-12.png)
+## implicit realtive path
 
 This challenge required me to invoke the `run` directory from `challenge` directory using the relative paths.
 
@@ -73,7 +73,7 @@ Flag was obtained by running the following commands
 
 Flag: pwn.college{shcygkeLdCtHxGa4t_PYebHDDum.dFTN1QDL0IzN0czW}
 
-![img](image-13.png)
+## home sweet home
 
 This challenge what `~` signifies. It is shorthand for the home directory of the user. Here, in the challenge the user is the hacker so `~` iss expanded to `/home/hacker`
 
