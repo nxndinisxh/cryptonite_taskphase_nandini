@@ -24,7 +24,7 @@ Flag: `pwn.college{owxjMCcjfXr8noT43MOFdn9v45o.ddTN1QDL0IzN0czW}`
 
 ## Setting Variables
 
-Seems like we can also create variables in shell, by simply using <variablename>=<variablevalue> 
+Seems like we can also create variables in shell, by simply using "variablename"="variablevalue"
 This was the task of the level too: Creating a variable PWN and assigning a value COLLEGE to it.
 
 Flag: `pwn.college{EB_sYO2GUvAuUDrdOw23bWJLpN-.dlTN1QDL0IzN0czW}`
