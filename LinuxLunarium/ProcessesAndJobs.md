@@ -238,3 +238,17 @@ Flag: `pwn.college{cj9VM54_xljbS9wjfQFp-Gxcg26.dlDN4QDL0IzN0czW}`
 
 ## Process Exit Codes
 
+You can access the exit code of the most recently-terminated command using the special ? variable (don't forget to prepend it with $ to read its value!).
+
+```
+hacker@processes~process-exit-codes:~$ /challenge/get-code
+Exiting with an error code!
+hacker@processes~process-exit-codes:~$ echo $?
+63
+hacker@processes~process-exit-codes:~$ /challenge/submit-code 63
+CORRECT! Here is your flag:
+pwn.college{Qow8MOV0jN9LD3SV0JJ1Ec1P419.dljN4UDL0IzN0czW}
+hacker@processes~process-exit-codes:~$ 
+```
+
+Flag: `pwn.college{Qow8MOV0jN9LD3SV0JJ1Ec1P419.dljN4UDL0IzN0czW}`
