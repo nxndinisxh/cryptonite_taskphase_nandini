@@ -252,3 +252,5 @@ hacker@processes~process-exit-codes:~$
 ```
 
 Flag: `pwn.college{Qow8MOV0jN9LD3SV0JJ1Ec1P419.dljN4UDL0IzN0czW}`
+
+# END
