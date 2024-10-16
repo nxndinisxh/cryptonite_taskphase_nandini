@@ -361,7 +361,7 @@ Flag: `pwn.college{kNcA7-q4TvxLKGFPGVmHK9Q_JCi.dBTM2QDL0IzN0czW}`
 
 Another game with using `=` and `,` too and this time I did not make mistakes.
 
-```
+````
 hacker@permissions~permissions-setting-practice:~$ /challenge/run
 Round 0 (of 8)!
 
@@ -581,7 +581,7 @@ hacker@permissions~permissions-setting-practice:~$ chmod u+r /flag
 hacker@permissions~permissions-setting-practice:~$ cat /flag
 pwn.college{kHUt377imIzhrC6ZOBoDtHZXbgP.dNTM5QDL0IzN0czW}
 hacker@permissions~permissions-setting-practice:~$ 
-```
+````
 
 Flag: `pwn.college{kHUt377imIzhrC6ZOBoDtHZXbgP.dNTM5QDL0IzN0czW}`
 
