@@ -52,3 +52,13 @@ Password: `4CKMh1JI91bUIZZPXDqGanal4xvAg0JM`
 `strings` is used to print the sequences of printable characters in files.  
 I used `strings data.txt | grep =` to get to my password.  
 Password: `FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey`
+
+### Level10 - Level11
+`cat`ing the `data.txt` file, I recieved `VGhlIHBhc3N3b3JkIGlzIGR0UjE3M2ZaS2IwUlJzREZTR3NnMlJXbnBOVmozcVJyCg==` as the contents. Running it through the base64
+decoder, the decoded text was `The password is dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr`
+
+### Level11 - Level12
+Used `cat` on the `data.txt` file, got `Gur cnffjbeq vf 7k16JArUVv5LxVuJfsSVdbbtaHGlw9D4` as the contents.
+Deciphered using rot13 cipher. The decoded cipher was `The password is 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4`
+
+### Level12 - Level13
